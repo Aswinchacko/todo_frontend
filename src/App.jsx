@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import TodoInput from './components/TodoInput';
-import TodoList from './components/TodoList';
+import TodoInput from './Components/TodoInput.jsx';
+import TodoList from './Components/TodoList.jsx';
 
 const API_BASE = 'https://backend-sb-6n5y.onrender.com/api/todos';
 
